@@ -1,0 +1,1 @@
+select * from funcionario where salario <2000;
