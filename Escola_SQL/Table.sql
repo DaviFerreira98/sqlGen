@@ -1,13 +1,9 @@
-use db_escola;
-
-create table tb_estudantes(
-
- id bigint auto_increment,
-  nome varchar(100) not null,
-  idade int,
-  RA varchar(8) not null,
-  telefone varchar(11) not null,
-  nota decimal(10.2),
-  primary key(id)
-
-);
+CREATE TABLE funcionario (
+  id bigint NOT NULL AUTO_INCREMENT,
+  nome varchar(30) NOT NULL,
+  cargo varchar(15),
+  telefone varchar(11),
+  email varchar(30),
+  salario decimal(10,2),
+  PRIMARY KEY (id)
+)
